@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pasapalabra ISDI</title>
+  <link rel="stylesheet" href="/projects/pasapalabra/pasapasalabraCSS.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">PASA<span class="title-half">PALABRA</span>
+    </h1>
+
+    <h2>Bienvenido a Pasapalabra!</h2><br>
+    <p class="paragraph">
+      El juego mostrara una definición; deberás adivinar que palabra estamos preguntando. Si sabes la respuesta
+      escribela y dale click a "responder"!<br><br>
+      Puedes saltarte la pregunta clickeando el boton "pasapalabra". <br>(solo podras pasar palabra una vez).
+    </p>
+
+    <br><br><button id="play" class="play">Jugar</button>
+
+    <div class="questionLetter">
+      <div id="a" class="letter">A</div>
+      <div id="b" class="letter">B</div>
+      <div id="c" class="letter">C</div>
+      <div id="d" class="letter">D</div>
+      <div id="e" class="letter">E</div>
+      <div id="f" class="letter">F</div>
+      <div id="g" class="letter">G</div>
+      <div id="h" class="letter">H</div>
+      <div id="i" class="letter">I</div>
+      <div id="j" class="letter">J</div>
+      <div id="k" class="letter">K</div>
+      <div id="l" class="letter">L</div>
+      <div id="m" class="letter">M</div>
+      <div id="n" class="letter">N</div>
+      <div id="ñ" class="letter">Ñ</div>
+      <div id="o" class="letter">O</div>
+      <div id="p" class="letter">P</div>
+      <div id="q" class="letter">Q</div>
+      <div id="r" class="letter">R</div>
+      <div id="s" class="letter">S</div>
+      <div id="t" class="letter">T</div>
+      <div id="u" class="letter">U</div>
+      <div id="v" class="letter">V</div>
+      <div id="w" class="letter">W</div>
+      <div id="x" class="letter">X</div>
+      <div id="y" class="letter">Y</div>
+      <div id="z" class="letter">Z</div>
+
+      <div id="singleQuestionLetter" class="singleQuestion"><br></div>
+    </div>
+
+    <input id="user-answer-input" class="text-input" type="text" placeholder="escribe aqui tu respuesta"> <button
+      id="answer-button">Responder</button> <button id="pasapalabra">Pasapalabra</button>
+
+    <br><br><button id="next-question" class="next">siguiente</button>
+
+    <p id="counters" class="counter"></p>
+
+    <p>Tiempo restante para terminar la partida:</p>
+
+    <div id="temporizer" class="temporizer">
+      <p id="seg" class="seg"></p>
+    </div>
+
+  </div>
+
+
+
+
+  <script src="/projects/pasapalabra/pasapalabraJSv4.js"></script>
+</body>
+
+</html>
